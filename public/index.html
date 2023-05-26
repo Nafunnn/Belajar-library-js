@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="autumn">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,151 +13,82 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" class="flex items-center">
-          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-        </a>
-        <div class="flex md:order-2">
-          <button
-            type="button"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Get started
-          </button>
-          <button
-            data-collapse-toggle="navbar-cta"
-            type="button"
-            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-cta"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Open main menu</span>
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
             <svg
-              class="w-6 h-6"
-              aria-hidden="true"
-              fill="currentColor"
-              viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
               <path
-                fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              ></path>
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
             </svg>
-          </button>
-        </div>
-        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+          </label>
           <ul
-            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            tabindex="0"
+            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <a
-                href="#"
-                class="border-b-2 border-blue-700 block py-2 pl-3 pr-4 text-white bg-blue-700 md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
-                aria-current="page"
-                >Home</a
-              >
+            <li><a>Item 1</a></li>
+            <li tabindex="0">
+              <a class="justify-between">
+                Parent
+                <svg
+                  class="fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                </svg>
+              </a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
             </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >About</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >Services</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >Contact</a
-              >
-            </li>
+            <li><a>Item 3</a></li>
           </ul>
         </div>
+        <a href="vantajs.html" class="btn btn-ghost normal-case text-xl">daisyUI</a>
       </div>
-    </nav>
-    <!-- CONTENT -->
-
-    <section class="">
-      <div class="md:grid-cols-2 grid mx-12 my-12 gap-4">
-        <div class="flex justify-center items-center md:order-1 order-2">
-          <div class="">
-            <h1 class="text-lg font-semibold">Best Online Platform</h1>
-            <h1 class="text-5xl font-bold">
-              Improve Your Skills By <span class="text-orange-500">Study With</span> Learn
-            </h1>
-            <p class="my-4 text-lg text-gray-500">
-              Is is a long <span class="text-black font-semibold">established fact that a reader</span> will
-              be distracted reacontent of a page when
-            </p>
-
-            <form>
-              <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
-                >Search</label
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Item 1</a></li>
+          <li tabindex="0">
+            <a>
+              Parent
+              <svg
+                class="fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
               >
-              <div class="relative">
-                <div class="absolute inset-y-0 left-0 top-1 flex items-center pl-3 pointer-events-none">
-                  <i class="fi fi-rr-at text-xl"></i>
-                  <!-- <svg
-                    aria-hidden="true"
-                    class="w-5 h-5 text-gray-500 dark:text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                    ></path>
-                  </svg> -->
-                </div>
-                <input
-                  type="email"
-                  id="search"
-                  class="block w-full p-5 pl-10 text-sm text-gray-900 border border-gray-300 rounded-sm bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="Enter your email"
-                  required
-                />
-                <button
-                  type="submit"
-                  class="text-white absolute right-2.5 bottom-2.5 bg-orange-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-sm text-sm px-6 py-3 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  Get Started
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="flex justify-center order-1">
-          <img
-            class="aspect-auto w-96"
-            src="https://pngimg.com/uploads/student/student_PNG62523.png"
-            alt=""
-          />
-        </div>
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </a>
+            <ul class="p-2">
+              <li><a>Submenu 1</a></li>
+              <li><a>Submenu 2</a></li>
+            </ul>
+          </li>
+          <li><a>Item 3</a></li>
+        </ul>
       </div>
-    </section>
-    <!-- CONTENT-2 -->
-    <section class="mx-12">
-      <div class="md:grid-cols-5 grid">
-        <div>
-          <img src="https://i.pinimg.com/564x/a2/c0/d2/a2c0d2512e83f247a4c9f339178b7bfd.jpg" alt="" />
-        </div>
+      <div class="navbar-end">
+        <a class="btn">Get started</a>
       </div>
-    </section>
+    </div>
+
     <div id="particles-js" class="bg-black">
       <h1 class="text-white"></h1>
     </div>
