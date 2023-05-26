@@ -1,0 +1,48 @@
+*Soal persoalan*
+
+===English===
+>what is the purpose of the project you made?
+    to help business people manage the goods in the warehouse.
+
+===KRPL===
+Kisi PJBL :
+> Peserta didik mampu menyebutkan entitas pada database di dalam aplikasi yang mereka bangun.
+    users, receiving, issuing,
+> Peserta didik mampu menyebutkan dan menjelaskan jenis key attribut dalam database!
+    primary(kunci utama), foreign (penghubung setiap entitas) , unique(mirip dengan kunci utama tapi tidak diwajibkan menjadi kunci utama)
+
+===Java===
+> Apa tujuan sampeyan nggawe sistem pergudangan iki?
+    Ancasing kita ndamel sistem pergudangan menika kangge ngenthengke beban pelaku UMKM supados gampil anggenipun nyerat data barang wonten gudang.
+
+> Apa basa pemrograman sing sampeyan gunakake kanggo sistem informasi?
+    Sistem pergudangan ingkang kita damel ngangge basa pemrograman javascript lan php
+
+===Math===
+
+
+===Japanese===
+> Nano purojekuto o tsukurimasu ka?
+  Apa proyek yang anda buat?
+    Watashi-tachi wa sōko o kanri suru tame no u~ebusaito o sakusei shimasu
+    kami membuat situs web untuk mengelola gudang.
+
+> (Nama produk) wa ikura desuka?
+  (Nama produk) dihargai berapa?
+    Rentaru-ryō wa go-sen-en, yaku go-ju-go man-rupia. san Man-en de hanbai suruto san-byaku-ni-juu man-rupia-teido to naru.
+    Biaya sewanya 5.000 yen, sekitar 550.000 rupiah. Jika dijual seharga 30.000 yen, akan menjadi sekitar 3,2 juta rupiah.
+
+> Purojekuto o tsukuru toki, kimochi wa doudesuka?
+  Bagaimana perasaan anda saat membuat proyek?
+    Watashitachiha kono purojekuto ni totemo manzoku shite ori, kōfun shite imasu.
+    Kami sangat senang dan gembira dengan proyek ini.
+
+===History===
+> Jelaskan perubahan utama dalam sistem gudang selama satu dekade terakhir!
+    - Automatisasi dan Robotisasi: menjadikan pengambilan dan penyimpanan barang lebih efisiensi dan cepat.
+    - Teknologi Pemrosesan Data: dengan adobsi big data dan analitik memungkinkan gudang untuk mengumpulkan data secara real-time, hal ini dapat menimbulkan  pengambilan keputusan yang lebih cepat.
+
+> Jelaskan dampak adopsi teknologi Revolusi Industri 4.0 pada sistem gudang!
+    - IOT ( Internet of Things ): membantu mengumpulkan data lebih real time, seperti penggunaan sensor suhu dan kelembaban untuk memonitor kondisi barang
+    - Big Data: membantu mengumpulkan dan menganalisa pola dan tren untuk perencanaan stok yang lebih baik.
+    - AI ( Artificial Intelegence ): membantu mengambil keputusan yang lebih cepat, adaptif, dan efisien.
