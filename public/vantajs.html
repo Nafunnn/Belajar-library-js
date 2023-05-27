@@ -7,10 +7,10 @@
     <title>Document</title>
     <link href="/public/css/style.css" rel="stylesheet" />
   </head>
-  <body>
-    <div id="main" class="h-screen">
+  <body class="">
+    <div id="main" class="">
       <!-- NAVBAR -->
-      <nav>
+      <nav class="mx-24">
         <div class="navbar">
           <div class="navbar-start">
             <div class="dropdown">
@@ -58,7 +58,7 @@
             </div>
             <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
           </div>
-          <div class="navbar-center hidden lg:flex">
+          <div class="navbar-end hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
               <li><a>Item 1</a></li>
               <li tabindex="0">
@@ -82,11 +82,37 @@
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <div class="navbar-end">
-            <a class="btn">Get started</a>
-          </div>
         </div>
       </nav>
+      <!-- CONTENT-1 -->
+      <section class="mx-24 mt-12">
+        <div class="grid grid-cols-3 grid-rows-2">
+          <div class="col-span-2">
+            <h1 class="text-6xl font-normal text-white">Hello, I'm</h1>
+            <h1 class="text-6xl font-normal text-white">a UI/UX Designer & Front end Developer</h1>
+          </div>
+          <div class="row-span-2">
+            <img src="" alt="" />
+          </div>
+          <div>
+            <p class="my-12 text-white opacity-50">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam unde fuga sint sequi
+              corrupti asperiores suscipit hic placeat. Officiis, sunt modi esse sequi quis qui.
+            </p>
+            <div>
+              <a
+                class="relative bg-transparent text-[#ff4b57] px-12 py-4 group border-2 border-[#ff4b57] font-semibold rounded-sm"
+                href=""
+              >
+                <span
+                  class="absolute w-0 group-hover:w-full transition-all ease-out duration-300 h-full bg-[#ff4b57] left-0 top-0"
+                ></span>
+                <span class="relative group-hover:text-white duration-300">Button Here</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
