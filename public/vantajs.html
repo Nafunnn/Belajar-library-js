@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="/public/css/style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   </head>
   <body class="">
     <div id="main" class="">
@@ -85,16 +86,31 @@
         </div>
       </nav>
       <!-- CONTENT-1 -->
-      <section class="mx-24 mt-12">
-        <div class="grid grid-cols-3 grid-rows-2">
-          <div class="col-span-2">
+      <section class="mx-24 my-24">
+        <div class="grid md:grid-cols-3 md:grid-rows-2">
+          <div class="col-span-2 order-2 md:-order-1">
             <h1 class="text-6xl font-normal text-white">Hello, I'm</h1>
             <h1 class="text-6xl font-normal text-white">a UI/UX Designer & Front end Developer</h1>
           </div>
-          <div class="row-span-2">
-            <img src="" alt="" />
+          <div class="md:row-span-2 justify-items-center items-center flex justify-center order-1 md:order-2">
+            <figure class="justify-center items-center mb-12 md:mb-0">
+              <div class="justify-between">
+                <div
+                  class="mockup-code backdrop-filter backdrop-blur-sm bg-transparent shadow-lg border-2 border-white border-opacity-50"
+                >
+                  <pre data-prefix="$" class="text-xl"><code class="text-xl">Naf'an Nur 'Alim</code></pre>
+                  <pre data-prefix=">" class="text-warning text-xl"><code>Hi...</code></pre>
+                  <pre
+                    data-prefix="["
+                    class="text-error text-xl"
+                  ><code><p class="fw-semibold fs-5 ml-14">I'm a <span class="typed text-purple-500 text-xl"></span></p></code></pre>
+                  <pre data-prefix="]" class="text-error text-xl"></pre>
+                  <pre data-prefix=">" class="text-success text-xl"><code>Still Learning</code></pre>
+                </div>
+              </div>
+            </figure>
           </div>
-          <div>
+          <div class="md:order-3 order-3">
             <p class="my-12 text-white opacity-50">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam unde fuga sint sequi
               corrupti asperiores suscipit hic placeat. Officiis, sunt modi esse sequi quis qui.
@@ -105,12 +121,29 @@
                 href=""
               >
                 <span
-                  class="absolute w-0 group-hover:w-full transition-all ease-out duration-300 h-full bg-[#ff4b57] left-0 top-0"
+                  class="absolute w-0 group-hover:w-full transition-all ease-out duration-300 h-full bg-[#ff4b57] left-0 top-0 group-active:bg-white"
                 ></span>
-                <span class="relative group-hover:text-white duration-300">Button Here</span>
+                <span class="relative group-hover:text-white duration-300 group-active:text-[#ff4b57]"
+                  >Button Here</span
+                >
               </a>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="mx-24 my-24">
+        <div class="">
+          <h1 class="text-lg font-semibold">Services</h1>
+          <h1 class="text-4xl font-bold text-[#FF4B57]">
+            <span class="underline">Skill</span>
+            <span class="">-Set</span>
+          </h1>
+        </div>
+        <div class="my-12 grid md:grid-cols-4 gap-12">
+          <div class="bg-white">hai</div>
+          <div class="bg-white">hai</div>
+          <div class="bg-white">hai</div>
+          <div class="bg-white">hai</div>
         </div>
       </section>
     </div>
@@ -132,6 +165,15 @@
         points: 10,
         maxDistance: 20.0,
         spacing: 15.0,
+      });
+    </script>
+    <script>
+      var typed = new Typed(".typed", {
+        strings: ["UI/UX Designer.", "Front-End.", "Student."],
+        startDelay: 100,
+        typeSpeed: 30,
+        backSpeed: 60,
+        loop: true,
       });
     </script>
   </body>
