@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="/public/css/style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css" />
     <link
       rel="stylesheet"
@@ -16,9 +16,24 @@
       href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css"
     />
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body class="">
+  <body class="overflow-x-hidden">
     <div id="main" class="">
+      <!-- NAVBAR -->
       <nav class="mx-24 z-50">
         <div class="navbar">
           <div class="navbar-start">
@@ -59,70 +74,92 @@
           </div>
         </div>
       </nav>
-      <section class="mx-24 my-24">
-        <div class="">
-          <h1 class="text-lg font-semibold">About</h1>
-          <h1 class="text-4xl font-bold text-[#FF4B57]">
-            <span class="underline">./My</span>
-            <span class="">Profile</span>
-          </h1>
+      <!-- CONTENT -->
+      <section class="mx-24 my-12">
+        <div class="my-12 mt-12">
+          <h1 class="text-lg font-semibold">Done</h1>
+          <h1 class="text-4xl font-bold text-primary">My <span class="underline">Project</span></h1>
         </div>
-        <div class="my-12 grid md:grid-cols-3 gap-12">
-          <!-- CARD -->
-          <div
-            class="rounded-md p-4 grid justify-items-center backdrop-filter backdrop-blur-sm bg-transparent border-2 border-[#ff4b57] text-white group hover:bg-[#ff4b57] duration-300 hover:scale-105"
-          >
-            <img class="w-36 rounded-full shadow-xl mt-6" src="res/2023-02-05-18-39-47-659 1.jpg" alt="" />
-            <h1 class="text-4xl font-bold my-4">Hello, I'm Naf'an</h1>
-            <p class="opacity-50 text-center mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nobis atque laudantium
-              expedita dolorum excepturi illo dolorem quibusdam quas esse.
-            </p>
-            <div class="grid grid-cols-3 gap-4 content-evenly">
-              <a href=""><i class="fi fi-brands-instagram text-2xl"></i></a>
-              <a href=""><i class="fi fi-brands-github text-2xl"></i></a>
-              <a href=""><i class="fi fi-brands-tik-tok text-2xl"></i></a>
+        <div class="center">
+          <div class="p-3">
+            <div
+              class="rounded-md p-6 bg-transparent backdrop-blur-sm backdrop-filter border-2 border-[#ff4b57] duration-300 hover:scale-110 hover:bg-[#ff4b57]"
+            >
+              <img class="rounded-md" src="mockup design.jpg" alt="" />
+              <div class="flex my-2">
+                <h1 class="bg-[#E1EFFE] px-2.5 py-1 rounded-full text-black text-xs font-semibold">
+                  % Figma
+                </h1>
+              </div>
+              <h1 class="text-xl text-white font-bold mt-2 mb-4">Nike Mockup Design</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, unde.</p>
             </div>
           </div>
-          <!-- ABOUT ME -->
-          <div class="text-white">
-            <h1 class="text-4xl font-bold mb-8">About Me</h1>
-            <div>
-              <p class="opacity-75">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque perferendis, quidem iusto
-                tenetur illo ea voluptatibus quasi neque alias explicabo.
-              </p>
-            </div>
-            <div class="flex justify-start my-6">
-              <a
-                class="relative bg-transparent text-[#ff4b57] px-8 py-2 group border-2 border-[#ff4b57] font-semibold rounded-sm"
-                href=""
-              >
-                <span
-                  class="absolute w-0 group-hover:w-full transition-all ease-out duration-300 h-full bg-[#ff4b57] left-0 top-0 group-active:bg-white"
-                ></span>
-                <span class="relative group-hover:text-white duration-300 group-active:text-[#ff4b57]"
-                  >Button Here</span
-                >
-              </a>
+          <div class="p-3">
+            <div
+              class="rounded-md p-6 bg-transparent backdrop-blur-sm backdrop-filter border-2 border-[#ff4b57] duration-300 hover:scale-110 hover:bg-[#ff4b57]"
+            >
+              <img class="rounded-md" src="Code Portofolio.png" alt="" />
+              <div class="flex my-2 gap-2">
+                <h1 class="bg-[#E1EFFE] px-2.5 py-1 rounded-full text-black text-xs font-semibold">
+                  <\> HTML
+                </h1>
+                <h1 class="bg-[#E1EFFE] px-2.5 py-1 rounded-full text-black text-xs font-semibold">
+                  <\> CSS
+                </h1>
+                <h1 class="bg-[#E1EFFE] px-2.5 py-1 rounded-full text-black text-xs font-semibold"><\> JS</h1>
+              </div>
+              <h1 class="text-xl text-white font-bold mt-2 mb-4">Portofolio Website</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, unde.</p>
             </div>
           </div>
-          <!-- DETAILS -->
-          <div class="text-white">
-            <h1 class="text-4xl font-bold mb-8">Details</h1>
-            <div>
-              <h2 class="text-xl font-bold">Name :</h2>
-              <p class="opacity-75">Naf'an Nur 'Alim</p>
+          <div class="p-3">
+            <a target="_blank" href="https://github.com/Nafunnn/Kasir">
+              <div
+              class="rounded-md p-6 bg-transparent backdrop-blur-sm backdrop-filter border-2 border-[#ff4b57] duration-300 hover:scale-110 hover:bg-[#ff4b57]"
+            >
+              <img class="rounded-md" src="Code Kasir1 Python.png" alt="" />
+              <div class="flex my-2 gap-2">
+                <h1 class="bg-[#E1EFFE] px-2.5 py-1 rounded-full text-black text-xs font-semibold">
+                  <\> Python
+                </h1>
+              </div>
+              <h1 class="text-xl text-white font-bold mt-2 mb-4">Cashier Program</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, unde.</p>
             </div>
-            <div>
-              <h2 class="text-xl font-bold">Age :</h2>
-              <p class="opacity-75">17 Years</p>
-            </div>
-            <div>
-              <h2 class="text-xl font-bold">Location :</h2>
-              <p class="opacity-75">Semarang, Jawa Tengah, Indonesia</p>
-            </div>
+            </a>
           </div>
+          <div class="p-3">
+            <a target="_blank" href="https://www.figma.com/file/m61jrNdUp2EmisHidVvLsL/Pemilosk?type=design&node-id=0%3A1&mode=design&t=6dwK4nFNa0O9GA06-1">
+              <div
+              class="rounded-md p-6 bg-transparent backdrop-blur-sm backdrop-filter border-2 border-[#ff4b57] duration-300 hover:scale-110 hover:bg-[#ff4b57]"
+            >
+              <img class="rounded-md" src="mockup Pemilosk.jpg" alt="" />
+              <div class="flex my-2 gap-2">
+                <h1 class="bg-[#E1EFFE] px-2.5 py-1 rounded-full text-black text-xs font-semibold">
+                  % Figma
+                </h1>
+              </div>
+              <h1 class="text-xl text-white font-bold mt-2 mb-4">Pemilosk Website Design</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, unde.</p>
+            </div>
+            </a>
+          </div>
+          <div class="p-3">
+            <a target="_blank" href="https://lokalin.netlify.app/">
+              <div
+              class="rounded-md p-6 bg-transparent backdrop-blur-sm backdrop-filter border-2 border-[#ff4b57] duration-300 hover:scale-110 hover:bg-[#ff4b57]"
+            >
+              <img class="rounded-md" src="lokalin.jpeg" alt="" />
+              <div class="flex my-2 gap-2">
+                <h1 class="bg-[#E1EFFE] px-2.5 py-1 rounded-full text-black text-xs font-semibold">
+                  Design
+                </h1>
+              </div>
+              <h1 class="text-xl text-white font-bold mt-2 mb-4">Website Design Lokalin</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, unde.</p>
+            </div>
+            </a>
         </div>
       </section>
       <footer class="footer footer-center p-10 bg-transparent text-primary-content">
@@ -185,6 +222,43 @@
         </div>
       </footer>
     </div>
+    <!-- SCRIPT HERE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".center").slick({
+        centerMode: true,
+        centerPadding: "60px",
+        autoplay: true,
+        autoplayspeed: 2000,
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
     <script>

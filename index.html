@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="/public/css/style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css" />
     <link
       rel="stylesheet"
@@ -19,6 +19,7 @@
   </head>
   <body class="">
     <div id="main" class="">
+      <!-- NAVBAR -->
       <nav class="mx-24 z-50">
         <div class="navbar">
           <div class="navbar-start">
@@ -44,8 +45,8 @@
                 class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li><a href="skill-set-vantajs.html">Skill</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="picture-vantajs.html">Project</a></li>
+                <li><a href="profile.html">Profile</a></li
+                <li><a href="picture-vantajs.html">Item 3</a></li>
               </ul>
             </div>
             <a href="index.html" class="btn btn-ghost normal-case text-xl">./Nafan</a>
@@ -59,63 +60,48 @@
           </div>
         </div>
       </nav>
-      <section class="mx-24 my-24">
-        <div class="">
-          <h1 class="text-lg font-semibold">Services</h1>
-          <h1 class="text-4xl font-bold text-[#FF4B57]">
-            <span class="underline">Skill</span>
-            <span class="">- Set</span>
-          </h1>
-        </div>
-        <div class="my-12 grid md:grid-cols-4 gap-12">
-          <div
-            class="bg-transparent backdrop-blur-sm backdrop-filter hover:bg-[#ff4b57] group duration-300 hover:scale-105 rounded-md border-2 border-[#ff4b57]"
-          >
-            <div class="mx-8 my-8">
-              <i class="fi fi-brands-figma group-hover:text-white duration-300 text-[#ff4b57] text-4xl"></i>
-              <h1 class="text-2xl text-white font-semibold mt-8 mb-4">Figma</h1>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, accusantium unde fugiat
-                labore veritatis corporis et deleniti nihil atque aperiam.
-              </p>
-            </div>
+      <!-- CONTENT-1 -->
+      <section class="mx-24 mt-24 mb-32">
+        <div class="grid md:grid-cols-3 md:grid-rows-2">
+          <div class="col-span-2 order-2 md:-order-1">
+            <h1 class="text-6xl font-normal text-white">Hello, I'm</h1>
+            <h1 class="text-6xl font-normal text-white">a UI/UX Designer & Front end Developer</h1>
           </div>
-          <div
-            class="bg-transparent backdrop-blur-sm backdrop-filter hover:bg-[#ff4b57] group duration-300 hover:scale-105 rounded-md border-2 border-[#ff4b57]"
-          >
-            <div class="mx-8 my-8">
-              <i class="fi fi-brands-html5 group-hover:text-white duration-300 text-[#ff4b57] text-4xl"></i>
-              <h1 class="text-2xl text-white font-semibold mt-8 mb-4">HTML</h1>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, accusantium unde fugiat
-                labore veritatis corporis et deleniti nihil atque aperiam.
-              </p>
-            </div>
+          <div class="md:row-span-2 justify-items-center items-center flex justify-center order-1 md:order-2">
+            <figure class="justify-center items-center mb-12 md:mb-0">
+              <div class="justify-between">
+                <div
+                  class="mockup-code backdrop-filter backdrop-blur-sm bg-transparent shadow-lg border-2 border-white border-opacity-50"
+                >
+                  <pre data-prefix="$" class="text-xl"><code class="text-xl">Naf'an Nur 'Alim</code></pre>
+                  <pre data-prefix=">" class="text-warning text-xl"><code>Hi...</code></pre>
+                  <pre
+                    data-prefix="["
+                    class="text-error text-xl"
+                  ><code><p class="fw-semibold fs-5 ml-14">I'm a <span class="typed text-purple-500 text-xl"></span></p></code></pre>
+                  <pre data-prefix="]" class="text-error text-xl"></pre>
+                  <pre data-prefix=">" class="text-success text-xl"><code>Still Learning</code></pre>
+                </div>
+              </div>
+            </figure>
           </div>
-          <div
-            class="bg-transparent backdrop-blur-sm backdrop-filter hover:bg-[#ff4b57] group duration-300 hover:scale-105 rounded-md border-2 border-[#ff4b57]"
-          >
-            <div class="mx-8 my-8">
-              <i
-                class="fi fi-brands-css3-alt text-[#ff4b57] text-4xl group-hover:text-white duration-300"
-              ></i>
-              <h1 class="text-2xl text-white font-semibold mt-8 mb-4">CSS</h1>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, accusantium unde fugiat
-                labore veritatis corporis et deleniti nihil atque aperiam.
-              </p>
-            </div>
-          </div>
-          <div
-            class="bg-transparent backdrop-blur-sm backdrop-filter hover:bg-[#ff4b57] group duration-300 hover:scale-105 rounded-md border-2 border-[#ff4b57]"
-          >
-            <div class="mx-8 my-8">
-              <i class="fi fi-brands-php group-hover:text-white duration-300 text-[#ff4b57] text-4xl"></i>
-              <h1 class="text-2xl text-white font-semibold mt-8 mb-4">PHP</h1>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, accusantium unde fugiat
-                labore veritatis corporis et deleniti nihil atque aperiam.
-              </p>
+          <div class="md:order-3 order-3">
+            <p class="my-12 text-white opacity-50">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam unde fuga sint sequi
+              corrupti asperiores suscipit hic placeat. Officiis, sunt modi esse sequi quis qui.
+            </p>
+            <div>
+              <a
+                class="relative bg-transparent text-[#ff4b57] px-12 py-4 group border-2 border-[#ff4b57] font-semibold rounded-sm"
+                href=""
+              >
+                <span
+                  class="absolute w-0 group-hover:w-full transition-all ease-out duration-300 h-full bg-[#ff4b57] left-0 top-0 group-active:bg-white"
+                ></span>
+                <span class="relative group-hover:text-white duration-300 group-active:text-[#ff4b57]"
+                  >Button Here</span
+                >
+              </a>
             </div>
           </div>
         </div>
@@ -180,6 +166,7 @@
         </div>
       </footer>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
     <script>
@@ -197,6 +184,15 @@
         points: 10,
         maxDistance: 20.0,
         spacing: 15.0,
+      });
+    </script>
+    <script>
+      var typed = new Typed(".typed", {
+        strings: ["UI/UX Designer.", "Front-End.", "Student."],
+        startDelay: 100,
+        typeSpeed: 30,
+        backSpeed: 60,
+        loop: true,
       });
     </script>
   </body>
